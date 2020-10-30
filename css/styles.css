@@ -1,0 +1,42 @@
+.logo-name {
+    font-size: 30px;
+}
+
+.divider {
+    height: 5px;
+}
+
+#parallax_1 {
+    height: 350px;
+}     
+
+.quote {
+    margin: 15px;
+    font-style: italic;
+}
+
+.pres_container {
+    border: solid rgb(43, 126, 141) 3px;
+    border-radius: 17px;
+}
+
+.responsive-img {
+    border: solid rgb(43, 126, 141) 3px;
+}
+
+.small-screen-quote {
+    display: none;
+}
+
+
+@media screen and (max-width: 830px) {
+    .logo-name {
+        font-size: 20px;
+    }
+    .large-screen-quote {
+        display: none;
+    }
+    .small-screen-quote {
+        display: block;
+    }
+}
